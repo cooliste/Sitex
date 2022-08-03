@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Smooch&display=swap');
+
+body{
+    margin: 0;
+    padding: 0 ;
+   /* font-family: 'Poppins', sans-serif;*/
+   font-family: 'Times New Roman', Times, serif;
+   /* color: black;*/
+    font-style: italic;
+    /*font-variant: normal;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+}
+
+header {
+    height: 130vh ;
+    justify-content:space-between;
+    padding: 20px;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)), url("image/devlpeur.jpg");
+    background-position: center;
+    background-size: cover;
+}
+header nav {
+    display:flex;
+    color:#919191;
+    font-weight: 300;
+   margin-right:10px;
+   justify-content: space-between;
+   padding: 20px;
+   text-decoration: none;
+   font-size: 20px;
+   
+}
+header nav a{
+    color:#fff;
+    margin-right: 10px;
+text-decoration: none;
+}
+header nav a:hover{
+    color:blue;
+   
+}
+
+header .principal h4{
+ padding: -25px;
+ text-align: center;
+ padding: 20px;
+ 
+}
+header .principal h1,h4{
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    font-size: 20px;
+    padding: 25px 40px 30px;
+    font-size: 30px;
+   
+}
+h3{
+    font-weight: 12rem;
+}
+section{
+    /*counter-reset: column;*/
+    column-count: 2;
+    background-color:  rgb(41, 41, 175);
+    height: 67vh;
+}
+section .left{
+    float: left;
+    flex-wrap: wrap;
+   padding-left: 10px;    
+}
+
+section .right img{
+   float: right;
+   margin: 0 ;
+    width: 650px;
+    flex-wrap: wrap;
+    margin-top: 0;
+}
+
+.left p{
+    font-size: 20px;
+    color: black;
+}
+.left p a{
+    color: cyan;
+}
+.left a:hover{
+    color: coral;
+}
+footer{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-color:lime;
+}
+footer p{
+padding-top: -50px;
+position: center;
+text-align: center;
+font-weight: 700;
+font-size: 60px;
+
+}
+footer img{
+    
+    height: 40rem;
+    width: 50%;
+    position: relative;
+    padding-top:05px;
+    left: 30%;
+    margin: 10px 10px;
+    
+}
+
+
